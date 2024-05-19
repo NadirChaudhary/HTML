@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <fieldset style="width: 250px;text-align: center;">
+        <legend><h1>Job Application</h1></legend>
+
+        <label for="1">Name : </label>
+        <input type="text" name="name" id="1" placeholder="xyz" required><br><br>
+
+        <label for="2">Email : </label>
+        <input type="email" name="Email" id="2" placeholder="xyz@email.com" required><br><br>
+
+        <label for="3">Phone : </label>
+        <input type="tel" name="Phone" id="3" placeholder="1234567890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+
+        <label for="4">Resume : </label>
+        <input type="file" name="file" id="4"><br><br>
+
+        <label for="5">Experience(years) : </label>
+        <input type="number" name="number" id="5"><br><br>
+
+        <fieldset style="width: 220px;">
+            <legend>Skills</legend>
+            <label for="6">HTML</label>
+            <input type="checkbox" name="check" id="6">
+            <label for="7">CSS</label>
+            <input type="checkbox" name="check" id="7">
+            <label for="8">JavaScript</label>
+            <input type="checkbox" name="check" id="8">
+        </fieldset><br>
+
+        <label for="9">Highest Education : </label>
+        <select name="Highest Education" id="9">
+            <option value="Education">High School</option>
+            <option value="Education">Graduate</option>
+            <option value="Education">Post Graduate</option>
+            <option value="Education">Master</option>
+            <option value="Education">Doctrate</option>
+        </select><br>
+
+        <fieldset style="width: 197px;">
+            <legend>Availability</legend>
+
+            <label for="10">Full Time : </label>
+            <input type="radio" name="Availability" id="10">
+
+            <label for="11">Part Time : </label>
+            <input type="radio" name="Availability" id="11">
+        </fieldset><br>
+
+        <label>Additional Commentes : </label><br>
+        <textarea cols="30" rows="2"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </fieldset>
+</body>
+</html>
